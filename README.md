@@ -8,4 +8,4 @@
 5. The target is moved, and the next generation begins.
 6. This repeats generation by generation - until flocking behaviour towards the target emerges.
 
-[Demo](media/flockingdemo.gif)
+![Demo](media/flockingdemo.gif)
