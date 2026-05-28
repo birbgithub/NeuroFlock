@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Controller
+// Manages the boids and each generation of the neural network
+
 public class Controller : MonoBehaviour
 {
     public List<NeuralNetwork> neuralNetworks;

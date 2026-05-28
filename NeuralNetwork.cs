@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// NEURAL NETWORK
+// Holds input, hidden, output layers, and weights of neural network
+// feed forward function
+// mutate function
+// stores fitness of neural network
+
 public class NeuralNetwork
 {
     public float fitness = 0;
@@ -156,6 +162,9 @@ public class NeuralNetwork
         return weight;
     }
 }
+
+// NEURON CLASS
+// holds value in neuron and list of incoming weights
 
 public class Neuron
 {
